@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signup/style.css">
+    <script src="/signup/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="profile">
+        <div class="card">
+            <img  id="proo"  src="/signup/default.png" >
+            <label class="lab" for="update">Add profile</label>
+            <input  id="update" type="file" accept="image/jpeg , image/png , image/jpg">
+            <h1>Sign Up</h1>
+            <div class="signup">
+                <div class="typeuser">
+                    <label class="container">Patient
+                    <input type="radio">
+                    </label>
+
+                    <label class="container">Doctor
+                    <input type="radio">
+                    </label>
+                </div>
+                <div class="label1">
+                <label for="firstname">First Name : 
+                <input type="text"  placeholder="Enter FirstName" > </label>
+                </div>
+                <div class="label1">
+                <label class="l2" for="lastname">Last Name : </label>
+                <input type="text" placeholder="Enter LastName" >
+                </div>
+
+                <div class="label1">
+                <label class="l3" for="Username">User Name : </label> 
+                <input type="text" id="Username" placeholder="Enter UserName">
+                </div>
+
+                <div class="label1">
+                <label class="l4" for="Email"> Email : </label>
+                <input type="email" name="" id="" placeholder="Enter Mail Id">
+                </div>
+
+                <div class="label1">
+                <label class="l5" for="pass">Password : </label>
+                <input type="password"  id="password" required></div>
+                <div class="label1">
+                <label class="l6" for="pass">Confirm Password : </label> 
+                <input type="password" id="confirmpassword" required>
+                </div>
+            </div>
+            <button type="button" id="btn" onclick="validate()">SignUp</button>
+        </div>
+        
+    </div>
+</body>
+</html>
